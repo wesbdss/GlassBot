@@ -1,0 +1,15 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+	<category>
+        <pattern>OI</pattern>
+        <template>
+            Well, hello!
+    	</template>
+	</category>
+	<category>
+        <pattern>OLA</pattern>
+        <template>
+            Well, hello!
+    	</template>
+	</category>
+</aiml>
