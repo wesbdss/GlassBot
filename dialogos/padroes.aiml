@@ -1,9 +1,0 @@
-<aiml version="1.0.1" encoding="UTF-8">
-	<category>
-        <pattern>INIT 1</pattern>
-        <template>
-            Olá meu nome é GlassBot, e estou aqui para te ajudar a encontrar o que você precisa no portal Goiás Transparente!!</br>Para que eu possa ajudar pergunte algo como: "Quanto foi o "
-    	</template>
-	</category>
-	
-</aiml>

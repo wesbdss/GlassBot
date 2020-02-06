@@ -3,13 +3,216 @@
 	<category>
         <pattern>OI</pattern>
         <template>
-            Well, hello!
+            Oi, em que posso ajudar?
+    	</template>
+	</category>
+	<category>
+        <pattern>OIE</pattern>
+        <template>
+            Oi, em que posso ajudar?
+    	</template>
+	</category>
+	<category>
+        <pattern>OII</pattern>
+        <template>
+            Oi, em que posso ajudar?
     	</template>
 	</category>
 	<category>
         <pattern>OLA</pattern>
         <template>
-            Well, hello!
+            OLÁ, como posso lhe ajudar?
     	</template>
 	</category>
+	<category>
+        <pattern>HI</pattern>
+        <template>
+            Oi, em que posso ajudar?
+    	</template>
+	</category>
+	<category>
+        <pattern>HELLO</pattern>
+        <template>
+            Oi, em que posso ajudar?
+    	</template>
+	</category>
+	<category>
+        <pattern>BOM DIA</pattern>
+        <template>
+            Bom dia, em que poderia te ajudar?
+    	</template>
+	</category>
+	<category>
+        <pattern>BOA TARDE</pattern>
+        <template>
+           Bom tarde, em que poderia te ajudar?
+    	</template>
+	</category>
+	<category>
+        <pattern>BOA NOITE</pattern>
+        <template>
+           Bom noite, em que poderia te ajudar?
+    	</template>
+	</category>
+	<category>
+        <pattern>NOITE *</pattern>
+        <template>
+           Bom noite, em que poderia te ajudar?
+    	</template>
+	</category>
+	<category>
+        <pattern>DIA</pattern>
+        <template>
+            Bom dia, em que poderia te ajudar?
+    	</template>
+	</category>
+	<category>
+        <pattern> TARDE *</pattern>
+        <template>
+           Bom tarde, em que poderia te ajudar?
+    	</template>
+	</category>
+
+    <category>
+        <pattern>O QUE VC PODE FAZER</pattern>
+        <template>
+           Bom ... eu posso: checar salários, férias, remunerações, saldos, despesas, custos, desembolso, repasses e muito mais!!
+        </template>
+    </category>
+	
+<category>
+        <pattern>ME AJUDA</pattern>
+        <template>
+           Claro que ajudarei !!  Consigo fazer os seguintes comandos: salario __Pessoa___. ferias ___Pessoa___, qual foi a remuneracao __Pessoa__,qual foi o saldo do __Pessoa__, DESPESAS __setor__, qual foi o repasse __Setor__, esses são os mais procurados!!
+        </template>
+    </category>
+
+    <category>
+        <pattern>FUNCOES</pattern>
+        <template>
+           Claro que ajudarei !!  Consigo fazer os seguintes comandos: salario __Pessoa___. ferias ___Pessoa___, qual foi a remuneracao __Pessoa__,qual foi o saldo do __Pessoa__, DESPESAS __setor__, qual foi o repasse __Setor__, esses são os mais procurados!!
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO EU POSSO RECLAMAR</pattern>
+        <template>
+           Reclamações podem ser feitas pela Ouvidoria do Goiás Transparente, Em http://www.transparencia.go.gov.br/externo.php?pagina=http://www.cge.go.gov.br/ouvidoria/
+        </template>
+    </category>
+
+	<category>
+        <pattern>SALARIO *</pattern>
+        <template>
+           O Salario de <star/>  foi de 3.890,00.
+    	</template>
+	</category>
+	<category>
+        <pattern>FERIAS *</pattern>
+        <template>
+           Valor das férias  de <star/>  foi de 1.890,00.
+    	</template>
+	</category>
+	<category>
+        <pattern> QUAL FOI A REMUNERACAO *</pattern>
+        <template>
+           O <star/> teve um salario de 1.390,90.
+    	</template>
+	</category>
+	<category>
+        <pattern> QUAL FOI O SALDO DO *</pattern>
+        <template>
+           O <star/>  salario foram de 3.890,00.
+    	</template>
+	</category>
+	<category>
+        <pattern> DESPESAS *</pattern>
+        <template>
+           As depesas com <star/>  foi de 100.043,98.
+    	</template>
+	</category>
+	<category>
+        <pattern> VALOR DO AUXILIO *</pattern>
+        <template>
+           O valor do auxilio com <star/>  foi de 100.043,98.
+    	</template>
+	</category>
+	<category>
+        <pattern> QUAL FOI AS DESPESAS *</pattern>
+        <template>
+            Se teve uma despesa de um total de 190.390,90 com <star/>.
+    	</template>
+	</category>
+	<category>
+        <pattern>QUAL FOI O GASTO *</pattern>
+        <template>
+           O gasto com <star/> foi de 55.678.972,01.
+    	</template>
+	</category>
+	<category>
+        <pattern>QUAL FOI O VALOR DAS CONTAS *</pattern>
+        <template>
+           O gasto com <star/> foi de 5.678.972,01.
+    	</template>
+	</category>
+	<category>
+        <pattern>QUAL FOI OS CUSTOS *</pattern>
+        <template>
+           Os custos com <star/> foi de 5.678.972,01.
+    	</template>
+	</category>
+	<category>
+        <pattern> QUAL FOI O DESEMBOLSO *</pattern>
+        <template>
+           O desembolso com <star/>  foi de 760.453,12.
+    	</template>
+	</category>
+	<category>
+        <pattern>QUAL FOI O REPASSE *</pattern>
+        <template>
+           O repasse para <star/> foi de 9.876.543,99.
+    	</template>
+	</category>
+	<category>
+        <pattern>* EXPENSAS *</pattern>
+        <template>
+           Valor da expensas com <star/> foi de 576.543,99.
+    	</template>
+	</category>
+	<category>
+        <pattern>VALOR REPASSADO *</pattern>
+        <template>
+           Valor do repasse para <star/> foi de 56.543,99.
+    	</template>
+	</category>
+
+    <category>
+        <pattern>INIT 1</pattern>
+        <template>
+            Olá meu nome é GlassBot, e estou aqui para te ajudar a encontrar o que você precisa no portal Goiás Transparente!!
+            
+        </template>
+    </category>
+    
+    <category>
+        <pattern>INIT 2</pattern>
+        <template>
+            Me pergunte algo ou digite [me ajuda].
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL VALOR LIQUIDO DE *</pattern>
+        <template>
+            O valor liquido de <star/> foi de 3.254,13
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            Desculpe, não consigo fazer tudo ainda :)
+        </template>
+    </category>
+
 </aiml>
